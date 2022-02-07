@@ -2,13 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-button',
-  template: `
-    <p>
-    my-button works!
-    </p>
-`,
+  templateUrl: 'my-button.component.html',
   styleUrls: ['./my-button.component.scss']
 })
 export class MyButtonComponent {
-  constructor() {}
+  constructor() { }
 }

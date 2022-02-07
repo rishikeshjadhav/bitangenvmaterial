@@ -39,7 +39,12 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {},
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@angular/animations": "13.2.1",
+        "@angular/cdk": "13.2.1",
+        "@angular/forms": "13.2.1",
+        "@angular/material": "13.2.1"
+      }
     },
     "nodeLinker": "hoisted"
   },
