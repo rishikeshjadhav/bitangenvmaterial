@@ -9,6 +9,12 @@
  */
 
 {
+    "angmatenv": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "scope/angmatenv"
+    },
     "ui/my-button": {
         "scope": "",
         "version": "",

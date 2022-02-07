@@ -38,7 +38,9 @@
      */
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
-      "dependencies": {},
+      "dependencies": {
+		"@teambit/angular-v13": "0.0.19"
+	  },
       "peerDependencies": {
         "@angular/animations": "13.2.1",
         "@angular/cdk": "13.2.1",
@@ -56,14 +58,17 @@
    * see https://harmony-docs.bit.dev/aspects/variants for more info.
    **/
   "teambit.workspace/variants": {
-    "*": {
-      "teambit.angular/angular-v13@0.0.19": {}
+	"scope/angmatenv": {
+      "teambit.harmony/aspect": {}
+    },
+    "*": {   
+	  "scope/angmatenv": {}
     }
   },
   "teambit.angular/angular-v13@0.0.19": {},
   "teambit.generator/generator": {
     "aspects": [
-      "teambit.angular/angular-v13@0.0.19"
+      "scope/angmatenv"
     ]
   }
 }
