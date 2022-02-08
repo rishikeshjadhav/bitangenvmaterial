@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -39,8 +39,8 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-		"@teambit/angular-v13": "0.0.19"
-	  },
+        "@teambit/angular-v13": "0.0.19"
+      },
       "peerDependencies": {
         "@angular/animations": "13.2.1",
         "@angular/cdk": "13.2.1",
@@ -58,11 +58,11 @@
    * see https://harmony-docs.bit.dev/aspects/variants for more info.
    **/
   "teambit.workspace/variants": {
-	"scope/angmatenv": {
+    "scope/angmatenv": {
       "teambit.harmony/aspect": {}
     },
-    "*": {   
-	  "scope/angmatenv": {}
+    "*": {
+      "scope/angmatenv": {}
     }
   },
   "teambit.angular/angular-v13@0.0.19": {},
